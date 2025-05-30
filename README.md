@@ -8,12 +8,12 @@ Runs baseline Minkowski and Schwarzschild profiles and produces a single LaTeX f
 - Python 3.7+  
 - NumPy  
 - SymPy  
-- The solver module (`solver.py`) and stencil definitions (`solver_update.tex`) from your `warp-solver-equations` repo
+- The solver module (`solver.py`) and stencil definitions (`solver_update.tex`) from  https://github.com/arcticoder/warp-solver-equations
 
 ## Installation
 
 ```bash
-git clone https://github.com/<your-org>/warp-solver-validation.git
+git clone https://github.com/arcticoder/warp-solver-validation.git
 cd warp-solver-validation
 pip install numpy sympy
 ```
@@ -32,6 +32,3 @@ This will generate `validation_results.tex` in the project root.
 
 -   **validation\_results.tex**  
     A standalone LaTeX document containing an error‐norm table with Pass/Fail status for each test case.
-    
-
-Downstream pipelines can include or import this `.tex` file directly—no PDF step required here.
