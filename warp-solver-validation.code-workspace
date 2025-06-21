@@ -1,8 +1,19 @@
-{
-  "folders": [
+{  "folders": [
     {
       "path": ".",
       "name": "warp-solver-validation"
+    },
+    {
+      "name": "Warp Mock Data Generator",
+      "path": "../warp-mock-data-generator"
+    },
+    {
+      "name": "Warp Solver Equations",
+      "path": "../warp-solver-equations"
+    },
+    {
+      "name": "Warp Core - Main",
+      "path": "../warp-core"
     }
   ],
   "extensions": {
